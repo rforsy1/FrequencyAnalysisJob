@@ -37,7 +37,7 @@ public class FrequencyAnalysisJob implements Job {
 
 		int writeSuccess = frequencyAnalysisJobBo.writeToOutput(sortedWords);
 
-		archiveFile.archiveFile();
+		//archiveFile.archiveFile();
 		return writeSuccess;
 
 	}
